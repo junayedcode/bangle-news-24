@@ -10,7 +10,7 @@ export const auth = betterAuth({
   baseURL: process.env.BETTER_AUTH_URL,
   secret: process.env.BETTER_AUTH_SECRET,
 trustedOrigins: [
-  "https://bangle-news-24-np97l8kay-junayed7.vercel.app",
+  "https://bangle-news-24.vercel.app",
 ],
   database: mongodbAdapter(db, {
     client,
