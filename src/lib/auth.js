@@ -9,8 +9,8 @@ const db = client.db("bangla-news-24");
 export const auth = betterAuth({
   baseURL: process.env.BETTER_AUTH_URL,
   secret: process.env.BETTER_AUTH_SECRET,
- trustedOrigins: [
-  "https://bangle-news-24-np97l8kay-junayed7.vercel.app/",
+trustedOrigins: [
+  "https://bangle-news-24-a81wm2aqj-junayed7.vercel.app",
 ],
 
   database: mongodbAdapter(db, {
